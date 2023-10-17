@@ -1,0 +1,24 @@
+{
+  "name": "tauri-tingya",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "tauri dev",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.0.2",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.3"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.0.5",
+    "@vitejs/plugin-vue": "^3.0.0",
+    "less": "^4.1.3",
+    "vite": "^3.0.0"
+  }
+}
